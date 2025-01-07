@@ -17,6 +17,7 @@ body{
 html{
   scroll-behavior: smooth;
 }
+/* navbar header */
 .header{
   top: 0;
   left: 0;
@@ -26,7 +27,7 @@ html{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  position: relative;
+  position: fixed;
   z-index: 999;
 
 }
@@ -49,6 +50,7 @@ html{
   color: #fff;
   margin-left: 25px;
   position: relative;
+  margin-top: 30px;
 }
 .navbar a::before{
   content: '';
@@ -75,6 +77,7 @@ html{
   justify-content: space-between;
   position: relative;
   transition: all 0.5s;
+  
 }
 .menu-toggle span{
   display: block;
@@ -201,7 +204,7 @@ html{
 }
 .about-content img{
   width: 250px;
-  border-radius: 100%;
+  border-radius: 50% 10%;
 }
 .about-content{
   display: flex;
@@ -421,12 +424,12 @@ color: #fff;
 
 /* fotter */
 /* Form Container */
+
 .form-container {
   background-color:#1b1833;
   padding: 40px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
-
   
   margin-bottom: 20px;
   text-align: center;
@@ -616,26 +619,26 @@ footer {
 } 
 
 .manual {
-  grid-template-columns: 1fr; /* One column layout on smaller screens */
+  grid-template-columns: 1fr; 
 }
 
 .edge h3 {
-  font-size: 20px; /* Smaller font size for small screens */
+  font-size: 20px; 
 }
 
 .auto {
-  font-size: 16px; /* Even smaller font size for compact screens */
+  font-size: 16px; 
 }
 
 .emblem-satu img {
-  width: 120px; /* Resize images for very small screens */
+  width: 120px; 
 }
 
 .service {
   height: auto;
-  padding: 0 10px; /* Further reduce padding on very small screens */
+  padding: 0 10px;
 }
 
 .bungkus, .bungkus2 {
-  padding: 15px; /* Add padding for better mobile appearance */
+  padding: 15px;
 }
